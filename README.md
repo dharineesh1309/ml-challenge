@@ -6,6 +6,17 @@ records (typos, OCR errors, native Indic scripts, reordered names, abbreviated a
 **CPU only. No external data, APIs or pretrained models.** Optimized directly for the official
 entity-level macro F0.5.
 
+## Final result
+
+**Rank 168 · leaderboard score 0.984282**
+
+<img src="assets/result.jpg" alt="Final leaderboard result: rank 168, overall score 0.984282" width="420">
+
+**Team:** Kolluru Sai Abhiram, Sumaya Afreen, Shrenish Nikhil S, Dharineesh Athikesavan
+(Vellore Institute of Technology, VIT-AP)
+
+## Validation
+
 | Metric | Value |
 |---|---|
 | Validation macro F0.5 (44,736 held-out S1 entities, full pipeline) | **0.9739** |
