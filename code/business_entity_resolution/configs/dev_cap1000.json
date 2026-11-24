@@ -1,0 +1,1 @@
+{"name":"dev_cap1000","split":{"query_frac":0.1},"blocking":{"df_cap":1000,"k_name":20,"k_addr":10,"k_comb":10},"model":{"train_frac":0.1}}

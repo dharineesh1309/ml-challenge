@@ -1,0 +1,14 @@
+# Whitelist: only code + docs are tracked. Data, caches, models, outputs, logs stay local.
+/*
+!.gitignore
+!code/
+!lab/
+!handover/
+!EXPERIMENTS.md
+!ROADMAP.md
+!README.md
+!Documentation_template.md
+lab/*
+!lab/*.py
+__pycache__/
+*.pyc

@@ -1,0 +1,33 @@
+{
+  "name": "rev_s2",
+  "split": {
+    "query_frac": 0.1
+  },
+  "blocking": {
+    "df_cap": 1000,
+    "k_name": 20,
+    "k_addr": 10,
+    "k_comb": 10,
+    "reverse": true,
+    "k_rev_keep": 10,
+    "k_rev_add": 5
+  },
+  "model": {
+    "train_frac": 0.1,
+    "stage2": true,
+    "params": {
+      "objective": "binary",
+      "learning_rate": 0.1,
+      "num_leaves": 63,
+      "min_data_in_leaf": 100,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.8,
+      "bagging_freq": 1,
+      "lambda_l2": 1.0,
+      "seed": 42,
+      "deterministic": true,
+      "force_row_wise": true,
+      "verbose": -1
+    }
+  }
+}

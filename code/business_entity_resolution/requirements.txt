@@ -1,0 +1,7 @@
+# Python 3.13 (also tested target: Kaggle / SageMaker CPU images with Python >= 3.10)
+polars==1.42.1        # MIT
+numpy==2.3.5          # BSD
+rapidfuzz==3.14.6     # MIT
+lightgbm==4.7.0       # MIT
+anyascii==0.3.3       # ISC
+psutil==7.2.2         # BSD
